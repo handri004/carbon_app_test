@@ -120,134 +120,79 @@
 <!-- Methodology -->
 <section class="section_body_methodology">
     <div class="container">
+  
+        <div class="methodology">
+            <h1 style="text-align:center;"> General Formulas</h1>
+            <!-- First row with two boxes -->
+            <div class="row">
+                <div class="box">
+                            <h4>The General Formula:</h4>
+                            <p>                        
+                                \[\text{CO}_{2}=d*\frac{ef}{p}\]
+                                <br>
+                                In which:
+                                   \[\text{CO}_2 \text{ = carbon emissions in grams} \]
+                                   \[\text{d} \text{ = distance traveled in km} \]
+                                   \[\text{ef} \text{ = emission factor in CO}_2 \text{/km} \]
+                                   \[\text{d} \text{ = distance traveled in km} \]</p>
+                </div>
+                <div class="box">The General Formula for Electric Vehicles:
+                   <p>                    \[ \text{ef = 31 * ec} \]
+                    In which:
+                       \[\text{ef} \text{ = emission factor in CO}_2 \text{/km} \]
+                       \[\text{31} \text{ = carbon intensity in gCO}_2 \text{/kwh} \]
+                       \[\text{ec} \text{ = energy consumption in kWh} \text{/km} \]</p> 
+
+                </div>
+            </div>
+        </div>
 
         <div class="methodology" style="display:block;">
-            <h1 style="text-align:left;"> Our numbers and formulas</h1>
+            <h1 style="text-align:center;"> Our Numbers</h1>
             <p>
-              We are going to study some \(\LaTeX ~ formulas\) that could be useful for our project:
+              Now that we have presented our general formula to our calculations, we now present the numbers we have gathered through our research on the matter:
             </p> 
         </div>
-
-        <!--Enumerated list (table with two columns)-->
-        <div class="methodology"> 
-            <div class="box_table2" style="height:200px;">
-                <ol start="1">
-                    <li>
-                        <h4>Mathematical expressions 1</h4>
-                        <p class="text-left">
-                            In progress.
-                            <br>
-                            x
-                        </p>
-                    </li>
-                </ol>                        
-            </div>
-            <div class="box_table2" style="height:200px;">
-                <ol start="2">
-                    <li>
-                        <h4>Mathematical expressions 2</h4>
-                        <p class="text-left">
-                            In progess.
-                            <br>
-                            x
-                        </p>
-                    </li>
-                </ol>
-            </div>  
-        </div>
-
-        <!--Enumerated list (table with two columns)-->
-        <div class="methodology"> 
-            <div class="box_table2" style="height:425px;">
-                <ol start="3">
-                    <li>
-                        <h4>Sums</h4>
-                        <p class="text-left">
-                            In progress.
-                            <br>
-                            x
-                        </p>
-                    </li>
-                    <li>
-                        <h4>Products</h4>
-                        <p class="text-left">
-                            In progress.
-                            <br>
-                            x
-                        </p>
-                    </li>
-                </ol>                        
-            </div>
-            <div class="box_table2" style="height:425px;">
-                <ol start="5">
-                    <li>
-                        <h4>Limits</h4>
-                        <p class="text-left">
-                            In progress.
-                            <br>
-                            x
-                        </p>
-                    </li>
-                    <li>
-                        <h4>Integrals</h4>
-                        <p class="text-left">
-                            In progress.
-                            <br>
-                            x
-                        </p>
-                    </li>
-                </ol>
-            </div>  
-        </div>
-
         
-
-        <!--Enumerated list (table with one column)-->
-        <div class="methodology">              
-            <div class="box_table1">
+        <div class="methodology">
+            <div class="row">
+                <div class="box_table1">
+                    <h4>Ferry</h4>
+                    <p> Diesel: 226g</p>
+                    <!-- Content for Ferry -->
+                </div>
+                <div class="box_table1">
+                    <h4>Car</h4>
+                    <!-- Content for Car -->
+                </div>
             </div>
-            <div class="box_table1">
-                <ol>
-                    <li>
-                        <h4>Buses</h4>
-                        <p class="text-left">
-                            x
-                            <br>
-                             x
-                            <br>
-                            Where:
-                            <ul style="text-align:left;">
-                                <li>x</li>
-                                <li>x</li>
-                                <li>x</li>
-                                <li>x </li>
-                            </ul>
-                            
-                        </p>
-                    </li>
-                    <li>
-                        <h4>Cars</h4>
-                        <p class="text-left">
-                            ...
-                        </p>
-                    </li>
-                    <li>
-                        <h4>Planes</h4>
-                        <p class="text-left">
-                            ...
-                        </p>
-                    </li>
-                </ol>                        
+            <div class="row">
+                <div class="box_table1">
+                    <h4>Motorcycle</h4>
+                    <!-- Content for Motorcycle -->
+                </div>
+                <div class="box_table1">
+                    <h4>Train</h4>
+                    <!-- Content for Train -->
+                </div>
             </div>
-            <div class="box_table1">
-                      
-            </div>  
+            <div class="row">
+                <div class="box_table1">
+                    <h4>Bus</h4>
+                    <!-- Content for Bus -->
+                </div>
+                <div class="box_table1">
+                    <h4>Airplane</h4>
+                    <!-- Content for Airplane -->
+                </div>
+            </div>
         </div>
+        
 
         
       
     </div>
 </section>
 
-</body>
-</html>
+
+{% endblock content %}
